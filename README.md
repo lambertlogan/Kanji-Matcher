@@ -6,3 +6,6 @@ fellow Japanese learners. Currently only aiming to include N5-level Kanji but ma
 future.
 
 Made by Logan Lambert
+
+
+Presentation Video: https://youtu.be/aGgCEEBnt00
