@@ -24,18 +24,17 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/logo.png" height="100px"></a>
+                <a class="navbar-brand" href="home_page.php"><img src="assets/img/logo.png" height="100px"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto" style="text-shadow: -1px 1px 2px #99ccbb, 1px 1px 2px #99ccbb, 1px -1px 0 #99ccbb, -1px -1px 0 #99ccbb;">
-                        <li class="nav-item"><a class="nav-link" href="#">Home Page</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Main Page</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">User Wall</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Log-in/Sign-up</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="home_page.php">Home Page</a></li>
+						<li class="nav-item"><a class="nav-link" href="main_page.php">Main Page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="user_wall.php">User Wall</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact_page.php">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -54,7 +53,7 @@
 							echo fread($textfile, filesize("about.txt"));
 							fclose($textfile);
 						?></span></h2>
-                        <a class="btn btn-primary" href="#">Test your Skills!</a>
+                        <a class="btn btn-primary" href="main_page.php">Test your Skills!</a>
                     </div>
                 </div>
             </div>
