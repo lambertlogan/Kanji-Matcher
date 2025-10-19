@@ -7,5 +7,3 @@ future.
 
 Made by Logan Lambert
 
-
-Presentation Video: https://youtu.be/aGgCEEBnt00
